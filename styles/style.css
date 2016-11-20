@@ -1,0 +1,27 @@
+/* Responsive CSS */
+
+html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p {
+	color: #777;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+body {
+	font-size: 14px;
+	letter-spacing: 0.2px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+/* ******* Navigation */
+nav {
+	background-color: #dadada;
+	height: 50px;
+}
+.nav-list, .social-list {
+	list-style: none;
+}
+.nav-list li, .social-list li {
+	float: left;
+}
+
