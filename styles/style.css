@@ -13,7 +13,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
 /* ******* Navigation */
+
 nav {
 	background-color: #dadada;
 	height: 50px;
@@ -24,4 +32,22 @@ nav {
 .nav-list li, .social-list li {
 	float: left;
 }
-
+.nav-list li {
+	margin-right: 20px;
+}
+.nav-list {
+	padding-top: 15px;
+	float: left; /*sa ovim float: left smo sredili da padding nebude preko cele sirini jer na taj nacin i logoi padnu za padding dole*/
+	background-color: red;
+}
+.social-list {
+	float: right;
+	margin-top: 7px; /* mogli smo i padding da koristimo*/
+}
+.nav-list li a {
+	color: #fff;
+	text-decoration: none;
+}
+.social-list li {
+	margin-left: 20px;
+}
