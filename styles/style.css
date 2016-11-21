@@ -1,3 +1,4 @@
+
 /* Responsive CSS */
 
 html, body, ul, li, h1, h2, h3, h4, h5, h6, img, p {
@@ -13,11 +14,19 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 }
+h2 {
+	color: #E46965;
+	font-size: 40px;
+	font-weight: normal;
+	margin: 15px 0;
+
+}
 
 .container {
 	max-width: 900px;
 	margin: 0 auto;
 }
+
 
 
 /* ******* Navigation */
@@ -38,7 +47,7 @@ nav {
 .nav-list {
 	padding-top: 15px;
 	float: left; /*sa ovim float: left smo sredili da padding nebude preko cele sirini jer na taj nacin i logoi padnu za padding dole*/
-	background-color: red;
+	/* background-color: red; */
 }
 .social-list {
 	float: right;
@@ -50,4 +59,18 @@ nav {
 }
 .social-list li {
 	margin-left: 20px;
+}
+
+/* ******** Header */
+header h1, header h3 {
+	font-weight: normal;
+	text-align: center;
+}
+header h1{
+	font-size: 42px;
+	margin-top: 25px;
+}
+header h3 {
+	color: #E46965;
+	margin-bottom: 30px;
 }
