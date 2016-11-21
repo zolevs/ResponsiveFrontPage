@@ -74,3 +74,41 @@ header h3 {
 	color: #E46965;
 	margin-bottom: 30px;
 }
+
+/* ***** Feature section */
+.feature {
+	background-color: #363636;
+}
+.feature-list {
+	background: url(../images/feature-bg.jpg) top center no-repeat;
+	height: 300px;
+	list-style: none;
+}
+.feature-list li {
+	width: 33.333%;
+	height: 300px;
+	float: left;
+	border-left: 1px solid #fff;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 90px;
+}
+.feature-list li:last-child {
+	border-right: 1px solid #fff;
+}
+.feature-list li a {
+	text-decoration: none;
+}
+.feature-title {
+	color: #FFB27F;
+	opacity: 0.5;
+	font-size: 24px;
+	/*font-weight: normal;*/
+	margin-top: 10px;
+
+	transition: all .5s;
+}
+.feature-list li a:hover .feature-title{
+	opacity: 1;
+
+}
