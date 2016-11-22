@@ -140,6 +140,7 @@ header h3 {
 
 .portfolio-samples {
 	background-color: #dadada;
+	margin-top: 20px;
 	padding: 5px 0px 20px 0px;
 }
 .portfolio-list {
@@ -151,6 +152,8 @@ header h3 {
 	height: 210px;
 	float: left;
 	margin-right: 20px;
+	position: relative;
+
 }
 .portfolio-list li:last-child {
 	margin-right: 0;
@@ -166,4 +169,24 @@ header h3 {
 }
 .port-logo {
 	background: url(../images/tablet.jpg) center center no-repeat;
+}
+
+.portfolio-list li span {
+	position: absolute;
+	box-sizing: border-box;
+	bottom: 0;
+	width: 210px;
+	height: 52px;
+	background-color: rgba(0,0,0,0.4)
+}
+.portfolio-list a {
+	color: white;
+	text-decoration: none;
+	width: 105px;
+	display: block;
+	float: left;
+}
+.portfolio-list .sample-icon {
+	float: right;
+	padding-right: 5px;
 }
