@@ -59,6 +59,9 @@ nav {
 	background-color: #dadada;
 	height: 50px;
 }
+.menu-icon {
+	display: none;
+}
 .nav-list, .social-list {
 	list-style: none;
 }
@@ -162,7 +165,7 @@ header h3 {
 	background: url(../images/laptops.jpg) center center no-repeat;
 }
 .port-acme {
-	background: url(../images/alogo.jpg) -200px -10px no-repeat;
+	background: url(../images/alogo.jpg) center center no-repeat;
 }
 .port-demoreel {
 	background: url(../images/acmelogo.jpg) center center no-repeat;
@@ -262,3 +265,108 @@ footer .copyright {
 	position: absolute;
 	bottom: 0;
 }
+
+/* ********** RESPONSIVE */
+
+@media (max-width: 899px) {
+
+	.container  {
+		padding: 0 10px;
+	}
+	.feature-list {
+		margin: 0 10px;
+		padding: 0;
+	}
+	.portfolio-list {
+		width: 100%;
+	}
+	.portfolio-list li{
+		width: 25%;
+		padding: 0;
+		margin: 0;
+	}
+	.portfolio-list li span {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 640px) {
+	.portfolio-list li{
+		float: none;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.nav-list {
+		display: none; /* ovo je da bi nam nestao prilikom izrade */
+		background-color: #aaa;
+		width: 100%;
+		padding: 10px;
+		padding-bottom: 0; /* ovo je stavljeno zbog nav-list li koji ima dole onda jos vise padinga koji nam je visak */
+		margin-top: 10px;
+		position: relative;
+		left: -10px;
+	}
+	.nav-list li {
+		display: block;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.menu-icon {
+		display: block;
+		padding-top: 10px;
+		cursor: pointer;
+	}
+	.social-list {
+		position: absolute;
+		top: 3px;
+		right: 10px;
+	}
+	.feature-list {
+		background: none;
+		width: 100%;
+		margin: 0;
+		height: auto;
+	}
+	.feature-list li {
+		background-image: url(../images/feature-bg.jpg);
+		float: none;
+		height: 120px;
+		border-right: none !important;
+		border-left: none;
+		border-bottom: 1px solid #fff;
+		width: 100%;
+		text-align: left;
+		padding: 0;
+	}
+	.feature-icon {
+		float: left;
+		margin-top: 28px;
+		margin-right: 20px;
+		margin-left: 50px;
+	}
+	.feature-title {
+		line-height: 120px;
+		margin: 0;
+	}
+	.feature-graphic {
+		background-position: bottom center;
+	}
+	.feature-web {
+		background-position: top left;
+	}
+	.feature-video {
+		background-position: center right;
+	}
+
+	.col-one-third {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+
+
+
